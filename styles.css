@@ -136,10 +136,10 @@ header {
 .article-text p {
 	text-align: center;
 	font-family: "Barlow", sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	color: var(--Dark-grayish-blue);
-	line-height: 1.9;
+	line-height: 1.6;
 	padding: 2rem;
 	margin-bottom: 2rem;
 }
