@@ -123,14 +123,14 @@ header {
 }
 
 .article-text {
-	padding: 3rem 2rem 2rem;
+	padding: 2rem 2rem;
 }
 
 .article-text h2 {
 	font-family: "Fraunces", serif;
 	text-align: center;
 	font-size: 3rem;
-	padding: 2rem 4rem;
+	padding: 2rem 5rem;
 }
 
 .article-text p {
@@ -140,7 +140,7 @@ header {
 	font-weight: 700;
 	color: var(--Dark-grayish-blue);
 	line-height: 1.6;
-	padding: 2rem;
+	padding: 0 2rem;
 	margin-bottom: 2rem;
 }
 
