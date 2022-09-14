@@ -130,13 +130,13 @@ header {
 	font-family: "Fraunces", serif;
 	text-align: center;
 	font-size: 3rem;
-	padding: 2rem 5rem;
+	padding: 2rem 4rem;
 }
 
 .article-text p {
 	text-align: center;
 	font-family: "Barlow", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 	color: var(--Dark-grayish-blue);
 	line-height: 1.6;
