@@ -450,7 +450,10 @@ footer {
 	}
 
 	.article-text {
-		padding: 4rem 5rem;
+		padding: 0 6rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.article-text h2 {
@@ -478,7 +481,7 @@ footer {
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		text-decoration: none;
-		margin-bottom: 2rem;
+		margin-bottom: 0;
 	}
 
 	.yellow::before,
