@@ -539,7 +539,7 @@ footer {
 	}
 
 	.testimonials {
-		padding: 4rem 2rem 2rem;
+		padding: 4rem 0 2rem;
 	}
 
 	.testimonials-con {
@@ -556,7 +556,7 @@ footer {
 
 	.message {
 		font-size: 1.1rem;
-		margin: 0 2rem 2rem;
+		margin: 0;
 		padding: 1.3rem;
 		line-height: 1.8;
 		max-width: 25rem;
