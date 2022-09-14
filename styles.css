@@ -544,7 +544,9 @@ footer {
 
 	.testimonials-con {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
+		max-width: 73rem;
+		margin: auto;
 	}
 
 	.user {
@@ -556,7 +558,7 @@ footer {
 
 	.message {
 		font-size: 1.1rem;
-		margin: 0;
+		margin: 0 2rem 2rem;
 		padding: 1.3rem;
 		line-height: 1.8;
 		max-width: 25rem;
