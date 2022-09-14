@@ -545,7 +545,7 @@ footer {
 	.testimonials-con {
 		display: flex;
 		justify-content: space-between;
-		max-width: 73rem;
+		max-width: 75rem;
 		margin: auto;
 	}
 
@@ -561,7 +561,7 @@ footer {
 		margin: 0 2rem 2rem;
 		padding: 1.3rem;
 		line-height: 1.8;
-		max-width: 25rem;
+		max-width: 28rem;
 	}
 
 	.user-name {
