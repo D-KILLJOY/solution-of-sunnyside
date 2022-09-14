@@ -334,7 +334,7 @@ footer {
 	color: hsl(328, 78%, 55%);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
 	.mobile {
 		display: none;
 	}
