@@ -20,7 +20,7 @@
 	--light-moderate-cyan: hsl(168, 40%, 70%);
 
 	--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
-	--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+	--Very-dark-grayish-blue: hsl(214, 9%, 35%);
 	--Dark-grayish-blue: hsl(232, 10%, 55%);
 	--Grayish-blue: hsl(210, 4%, 67%);
 	--White: hsl(0, 0%, 100%);
@@ -138,7 +138,7 @@ header {
 	font-family: "Barlow", sans-serif;
 	font-size: 1.3rem;
 	font-weight: 700;
-	color: var(--Dark-grayish-blue);
+	color: var(--Very-dark-grayish-blue);
 	line-height: 1.6;
 	/* padding: 0 2rem; */
 	margin-bottom: 2rem;
@@ -210,7 +210,7 @@ header {
 }
 
 .testimonials {
-	padding: 6rem 2rem 2rem;
+	padding: 10rem 2rem;
 }
 
 .testimonials h2 {
@@ -220,7 +220,7 @@ header {
 	text-align: center;
 	margin-bottom: 6rem;
 	letter-spacing: 0.5rem;
-	color: var(--Grayish-blue);
+	color: var(--Dark-grayish-blue);
 }
 
 .user {
@@ -236,7 +236,7 @@ header {
 	text-align: center;
 	font-size: 1.4rem;
 	font-weight: 700;
-	color: var(--Dark-grayish-blue);
+	color: var(--Very-dark-grayish-blue);
 	margin: 0 0 4rem;
 	padding: 2rem;
 	line-height: 1.8;
@@ -255,7 +255,7 @@ header {
 	font-family: "Barlow", sans-serif;
 	font-weight: 700;
 	font-size: 1.2rem;
-	color: var(--Dark-grayish-blue);
+	color: var(--Very-dark-grayish-blue);
 	margin-bottom: 6rem;
 }
 
@@ -328,13 +328,14 @@ footer {
 }
 
 .attribution {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-family: "Barlow", sans-serif;
 	font-weight: 700;
 	text-align: center;
+	color: #000080;
 }
 .attribution a {
-	color: hsl(328, 78%, 55%);
+	color: #700000;
 }
 
 @media screen and (min-width: 750px) {
@@ -572,7 +573,7 @@ footer {
 
 	.user-position {
 		font-size: 0.8rem;
-		color: var(--Dark-grayish-blue);
+		color: var(--Very-dark-grayish-blue);
 		margin-bottom: 6rem;
 	}
 
