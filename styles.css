@@ -293,7 +293,6 @@ footer {
 
 .footer-nav {
 	display: flex;
-	width: 35rem;
 	margin: auto;
 	justify-content: space-around;
 }
