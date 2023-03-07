@@ -38,17 +38,20 @@ body {
 }
 
 .container {
-	max-width: 140rem;
+	max-width: 144rem;
 	margin: 0 auto;
+}
+
+.display-none {
+	display: none;
 }
 
 /* HEADER STARTS*/
 
 header {
 	width: 100%;
-	padding: 0 0 14rem;
 	background: url(./images/mobile/image-header.jpg) center/cover;
-	max-width: 140rem;
+	max-width: 144rem;
 	margin: 0 auto;
 }
 
@@ -109,7 +112,11 @@ header {
 	background-color: var(--Yellow);
 }
 
-.hero h2 {
+.hero {
+	height: 60vh;
+}
+
+.hero-text {
 	text-align: center;
 	font-family: "Fraunces", serif;
 	color: var(--White);
@@ -276,7 +283,7 @@ header {
 footer {
 	background-color: var(--light-moderate-cyan);
 	padding: 6rem 2rem 4rem;
-	max-width: 140rem;
+	max-width: 144rem;
 	margin: 0 auto;
 }
 
@@ -354,12 +361,10 @@ footer {
 
 	header {
 		width: 100%;
-		padding: 2rem 0 20rem;
 		background: url(./images/desktop/image-header.jpg) center/cover;
 	}
 
 	.nav-bar {
-		padding: 0 3rem;
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -422,10 +427,14 @@ footer {
 		color: #fff;
 	}
 
-	.hero h2 {
+	.hero {
+		height: 40vh;
+	}
+
+	.hero-text {
 		font-size: 3.6rem;
 		padding: 0;
-		margin: 10rem auto 8rem;
+		margin: 10rem auto 4rem;
 	}
 
 	.hero img {
@@ -585,6 +594,14 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+	.hero {
+		height: 60vh;
+	}
+
+	header {
+		padding: 0;
+	}
+
 	.nav-link {
 		font-size: 1.6rem;
 	}
